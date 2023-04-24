@@ -109,4 +109,3 @@ const getAverageGrades = (students) => {
 };
 
 console.log(getAverageGrades(students));
-
