@@ -64,7 +64,7 @@ const cart = [
 ];
 
 
-function sumOfItemsInCart = (cart) => {
+const sumOfItemsInCart = (cart) => {
     let totalCost = 0;
     for (let item of cart)
     {
@@ -111,4 +111,6 @@ const studentGrades = (students) => {
 };
 
 console.log(studentGrades(students));
+
+
 
