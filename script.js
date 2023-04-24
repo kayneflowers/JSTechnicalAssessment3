@@ -97,7 +97,7 @@ const students = [
 	{ name: "Alvin", grades: [68, 72, 65, 70] }
 ]
 
-const getAverageGrades = (students) => {
+const studentGrades = (students) => {
 	return students.map((student) => {
 		const sum = student.grades.reduce((acc, grade) => acc + grade, 0);
 		const averageGrade = sum / student.grades.length;
@@ -108,7 +108,5 @@ const getAverageGrades = (students) => {
 	});
 };
 
-console.log(getAverageGrades(students));
-
-
+console.log(studentGrades(students));
 
