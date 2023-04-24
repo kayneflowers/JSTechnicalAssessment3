@@ -63,7 +63,6 @@ const cart = [
     { name: "Shoes", price: 70, quantity: 10}
 ];
 
-
 const sumOfItemsInCart = (cart) => {
     let totalCost = 0;
     for (let item of cart)
@@ -111,6 +110,9 @@ const studentGrades = (students) => {
 };
 
 console.log(studentGrades(students));
+
+
+
 
 
 
