@@ -41,7 +41,7 @@ class Book {
 
 const book1 = new Book("The Catcher in the Rye", "J.D. Salinger", 277, 1951, "Fiction");
 const book2 = new Book("To Kill a Mockingbird", "Harper Lee", 281, 1960, "Fiction");
-const book3 = new Book("The Great Gatsby", "F. Scott Fitzgerald", 180, 1925, "Fiction");
+const book3 = new Book("The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change", "Stephen R. Covey", 384, 2004, "Nonfiction");
 
 const books = [book1, book2, book3];
 
@@ -109,3 +109,6 @@ const getAverageGrades = (students) => {
 };
 
 console.log(getAverageGrades(students));
+
+
+
