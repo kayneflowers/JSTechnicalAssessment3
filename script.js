@@ -56,14 +56,15 @@ console.log(fictionBooks);
 
 //Exercise 3.1
 const cart = [
-	{ name: "Shirt", price: 20, quantity: 2 },
-	{ name: "Pants", price: 30, quantity: 5 },
-	{ name: "Socks", price: 5, quantity: 7 },
-	{ name: "Hat", price: 40, quantity: 8 },
-	{ name: "Shoes", price: 70, quantity: 10 }
+    { name: "Shirt", price: 20, quantity: 2 },
+    { name: "Pants", price: 30, quantity: 5 },
+    { name: "Socks", price: 5, quantity: 7 },
+    { name: "Hat", price: 40, quantity: 8 },
+    { name: "Shoes", price: 70, quantity: 10}
 ];
 
-const sumInTheCart = (cart) => {
+
+function sumOfItemsInCart = (cart) => {
     let totalCost = 0;
     for (let item of cart)
     {
@@ -72,7 +73,8 @@ const sumInTheCart = (cart) => {
     return totalCost;
 };
 
-console.log(`Total cost: ${sumInTheCart(cart)}`);
+
+console.log(`Total cost: ${sumOfItemsInCart(cart)}`);
 
 //Exercise 3.2
 const getItemsWithMoreThanFive = (cart) => {
