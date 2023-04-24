@@ -93,8 +93,8 @@ console.log(getItemsAbovePrice(cart, 15));
 const students = [
 	{ name: "Kelly", grades: [78, 92, 85, 88] },
 	{ name: "Jared", grades: [90, 86, 94, 89] },
-	{ name: "Kelly", grades: [72, 84, 80, 76] },
-	{ name: "Kelly", grades: [68, 72, 65, 70] }
+	{ name: "Aloi", grades: [72, 84, 80, 76] },
+	{ name: "Alvin", grades: [68, 72, 65, 70] }
 ]
 
 const getAverageGrades = (students) => {
