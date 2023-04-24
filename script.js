@@ -79,7 +79,7 @@ const getItemsWithMoreThanFive = (cart) => {
 	return cart.filter((item) => item.quantity > 5 && item.price >= 20);
 }
 
-const items = getItemsWithMoreThanFive(cart);
+const items= getItemsWithMoreThanFive(cart);
 console.log(items);
 
 //Exercise 3.3
